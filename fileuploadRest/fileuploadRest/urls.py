@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from fileuploadRest.homeview import views as homeview
+from homeview import views as homeview
 
 urlpatterns = [
     path('/', homeview.index),
